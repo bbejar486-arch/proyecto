@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #d6e2f0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.card{
+    background-color: white;
+    width: 320px;
+    padding: 16px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0,0,00.15);
+
+}
+
+.card img{
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+}
+
+.card h2{
+    color: #1f3251;
+    font-size: 1.3rem;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+.card p{
+    font-size: 0.95rem;
+    color: #7b879d;
+    line-height: 1.5;
+    margin: 0 12px 8px;
+}
